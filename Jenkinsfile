@@ -10,9 +10,6 @@ parallel 'on-openjdk-8': {
 	}
 }
 
-stage 'test-job-1'
-build 'test-job-1'
-
 node ('openjdk-8') {
 	stage 'ENV'
 	sh 'env'
